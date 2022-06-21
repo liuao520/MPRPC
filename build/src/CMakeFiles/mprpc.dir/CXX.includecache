@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/mprpcapplication.h
+
+../src/include/rpcprovider.h
+google/protobuf/service.h
+../src/include/google/protobuf/service.h
+
+/home/hider/code/codeHao/MPRPC/src/mprpcapplication.cc
+mprpcapplication.h
+/home/hider/code/codeHao/MPRPC/src/mprpcapplication.h
+
+/home/hider/code/codeHao/MPRPC/src/rpcprovider.cc
+rpcprovider.h
+/home/hider/code/codeHao/MPRPC/src/rpcprovider.h
+mprpcapplication.h
+/home/hider/code/codeHao/MPRPC/src/mprpcapplication.h
+

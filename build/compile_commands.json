@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/hider/code/codeHao/MPRPC/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/hider/code/codeHao/MPRPC/src/include -I/home/hider/code/codeHao/MPRPC/example  -g -fPIC   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/hider/code/codeHao/MPRPC/src/mprpcapplication.cc",
+  "file": "/home/hider/code/codeHao/MPRPC/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/hider/code/codeHao/MPRPC/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/hider/code/codeHao/MPRPC/src/include -I/home/hider/code/codeHao/MPRPC/example  -g -fPIC   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/hider/code/codeHao/MPRPC/src/mprpcconfig.cc",
+  "file": "/home/hider/code/codeHao/MPRPC/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/hider/code/codeHao/MPRPC/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/home/hider/code/codeHao/MPRPC/src/include -I/home/hider/code/codeHao/MPRPC/example  -g -fPIC   -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/hider/code/codeHao/MPRPC/src/rpcprovider.cc",
+  "file": "/home/hider/code/codeHao/MPRPC/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/hider/code/codeHao/MPRPC/build/example/callee",
+  "command": "/usr/bin/g++   -I/home/hider/code/codeHao/MPRPC/src/include -I/home/hider/code/codeHao/MPRPC/example  -g   -o CMakeFiles/provider.dir/userservice.cc.o -c /home/hider/code/codeHao/MPRPC/example/callee/userservice.cc",
+  "file": "/home/hider/code/codeHao/MPRPC/example/callee/userservice.cc"
+},
+{
+  "directory": "/home/hider/code/codeHao/MPRPC/build/example/callee",
+  "command": "/usr/bin/g++   -I/home/hider/code/codeHao/MPRPC/src/include -I/home/hider/code/codeHao/MPRPC/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/hider/code/codeHao/MPRPC/example/user.pb.cc",
+  "file": "/home/hider/code/codeHao/MPRPC/example/user.pb.cc"
+}
+]
