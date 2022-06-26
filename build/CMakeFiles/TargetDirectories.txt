@@ -10,3 +10,4 @@
 /home/hider/code/codeHao/MPRPC/build/example/callee/CMakeFiles/provider.dir
 /home/hider/code/codeHao/MPRPC/build/example/caller/CMakeFiles/rebuild_cache.dir
 /home/hider/code/codeHao/MPRPC/build/example/caller/CMakeFiles/edit_cache.dir
+/home/hider/code/codeHao/MPRPC/build/example/caller/CMakeFiles/consumer.dir

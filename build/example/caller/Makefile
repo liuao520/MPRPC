@@ -110,6 +110,75 @@ depend:
 	cd /home/hider/code/codeHao/MPRPC/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+example/caller/CMakeFiles/consumer.dir/rule:
+	cd /home/hider/code/codeHao/MPRPC/build && $(MAKE) -f CMakeFiles/Makefile2 example/caller/CMakeFiles/consumer.dir/rule
+.PHONY : example/caller/CMakeFiles/consumer.dir/rule
+
+# Convenience name for target.
+consumer: example/caller/CMakeFiles/consumer.dir/rule
+
+.PHONY : consumer
+
+# fast build rule for target.
+consumer/fast:
+	cd /home/hider/code/codeHao/MPRPC/build && $(MAKE) -f example/caller/CMakeFiles/consumer.dir/build.make example/caller/CMakeFiles/consumer.dir/build
+.PHONY : consumer/fast
+
+__/friend.pb.o: __/friend.pb.cc.o
+
+.PHONY : __/friend.pb.o
+
+# target to build an object file
+__/friend.pb.cc.o:
+	cd /home/hider/code/codeHao/MPRPC/build && $(MAKE) -f example/caller/CMakeFiles/consumer.dir/build.make example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o
+.PHONY : __/friend.pb.cc.o
+
+__/friend.pb.i: __/friend.pb.cc.i
+
+.PHONY : __/friend.pb.i
+
+# target to preprocess a source file
+__/friend.pb.cc.i:
+	cd /home/hider/code/codeHao/MPRPC/build && $(MAKE) -f example/caller/CMakeFiles/consumer.dir/build.make example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.i
+.PHONY : __/friend.pb.cc.i
+
+__/friend.pb.s: __/friend.pb.cc.s
+
+.PHONY : __/friend.pb.s
+
+# target to generate assembly for a file
+__/friend.pb.cc.s:
+	cd /home/hider/code/codeHao/MPRPC/build && $(MAKE) -f example/caller/CMakeFiles/consumer.dir/build.make example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.s
+.PHONY : __/friend.pb.cc.s
+
+callfriendservice.o: callfriendservice.cc.o
+
+.PHONY : callfriendservice.o
+
+# target to build an object file
+callfriendservice.cc.o:
+	cd /home/hider/code/codeHao/MPRPC/build && $(MAKE) -f example/caller/CMakeFiles/consumer.dir/build.make example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o
+.PHONY : callfriendservice.cc.o
+
+callfriendservice.i: callfriendservice.cc.i
+
+.PHONY : callfriendservice.i
+
+# target to preprocess a source file
+callfriendservice.cc.i:
+	cd /home/hider/code/codeHao/MPRPC/build && $(MAKE) -f example/caller/CMakeFiles/consumer.dir/build.make example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.i
+.PHONY : callfriendservice.cc.i
+
+callfriendservice.s: callfriendservice.cc.s
+
+.PHONY : callfriendservice.s
+
+# target to generate assembly for a file
+callfriendservice.cc.s:
+	cd /home/hider/code/codeHao/MPRPC/build && $(MAKE) -f example/caller/CMakeFiles/consumer.dir/build.make example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.s
+.PHONY : callfriendservice.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +187,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... consumer"
+	@echo "... __/friend.pb.o"
+	@echo "... __/friend.pb.i"
+	@echo "... __/friend.pb.s"
+	@echo "... callfriendservice.o"
+	@echo "... callfriendservice.i"
+	@echo "... callfriendservice.s"
 .PHONY : help
 
 
