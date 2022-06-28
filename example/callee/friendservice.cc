@@ -2,8 +2,9 @@
 #include <string>
 #include "friend.pb.h"
 #include "mprpcapplication.h"
-#include "rpcprovider.h"
-#include <vector> 
+#include "mprpcprovider.h"
+#include <vector>
+#include "logger.h"
 
 class FriendService : public fixbug::FiendServiceRpc
 {
