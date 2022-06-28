@@ -9,7 +9,6 @@ int main(int argc, char **argv)
     MprpcApplication::Init(argc, argv);
 
     // 演示调用远程发布的rpc方法Login
-    //创建代理对象 提供数据序列化和反序列化以及网络的收发
     fixbug::UserServiceRpc_Stub stub(new MprpcChannel());
     // rpc方法的请求参数
     fixbug::LoginRequest request;
