@@ -200,6 +200,8 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr &conn,
 
     // 在框架上根据远端rpc请求，调用当前rpc节点上发布的方法
     // new UserService().Login(controller, request, response, done)
+    //表格对应 那个服务对象的哪个方法  这是1关键  也就是  service：method =  UserService ： Login
+    //是这样的回调
     service->CallMethod(method, nullptr, request, response, done);
 }
 
